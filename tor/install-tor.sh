@@ -12,6 +12,12 @@ printf "\n\n"
 printf "To use Tor for a single shell command type 'torsocks' in front"
 printf "Example: 'torsocks wget -qO - https://api.ipify.org; echo"
 
+
+printf "Setting git to ignore filemode changes"
+printf "(Avoids issues when fetching newer versions)"
+git config core.filemode false
+
+
 chmod +x $PWD/tor/torify-temp.sh
 chmod +x $PWD/tor/torify.sh
 chmod +x $PWD/tor/enable-control-port.sh

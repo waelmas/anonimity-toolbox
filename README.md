@@ -6,6 +6,14 @@ Current status: Work In Progress
 
 
 
+
+
+$ git clone https://github.com/waelmas/anonimity-toolbox.git && cd anonimity-toolbox
+
+
+
+
+
 Recommended: Install a no-log VPN and connect first
 
 Am audited no-log VPN that accepts direct crypto payments:
