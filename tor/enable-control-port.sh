@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-source torsocks off
+
+printf "\n\nBEFORE Running: source torsocks off\n\n"
 
 printf "\n\nEnter a password for Tor Control-port:\n"
 read torpassraw

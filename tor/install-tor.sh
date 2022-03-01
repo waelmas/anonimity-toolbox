@@ -24,6 +24,7 @@ chmod +x $PWD/tor/torify.sh
 chmod +x $PWD/tor/enable-control-port.sh
 chmod +x $PWD/tor/renew-identity.sh
 chmod +x $PWD/tor/get-current-ip.sh
+chmod +x $PWD/tor/get-current-tor-identity.sh
 
 
 printf "Run './tor/torify-temp.sh' to temporarily torify your shell\n"

@@ -48,6 +48,16 @@ Setup control-port for Tor (to be able to request new identities):
 $ ./tor/enable-control-port.sh
 
 
+Request new Tor identity:
+
+$ source torsocks off && ./tor/renew-identity.sh
+
+
+Get current Tor identity:
+
+$ ./tor/get-current-tor-identity.sh
+
+
 Get your current IP Address:
 
 $ ./tor/get-current-ip.sh
