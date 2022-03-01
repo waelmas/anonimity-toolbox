@@ -11,11 +11,11 @@ torsocks wget -qO - https://api.ipify.org; echo
 echo "To use Tor for a single shell command type 'torsocks' in front"
 echo "Example: 'torsocks wget -qO - https://api.ipify.org; echo"
 
-chmod +x ./torify-temp.sh
-chmod +x ./torify.sh
-chmod +x ./enable-control-port.sh
-chmod +x ./renew-identity.sh
-chmod +x ./get-current-ip.sh
+chmod +x $PWD/torify-temp.sh
+chmod +x $PWD/torify.sh
+chmod +x $PWD/enable-control-port.sh
+chmod +x $PWD/renew-identity.sh
+chmod +x $PWD/get-current-ip.sh
 
 
 echo "Run 'sudo ./tor/torify-temp.sh' to temporarily torify your shell"
