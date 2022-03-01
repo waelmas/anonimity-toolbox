@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 source torsocks off
 
-echo "Enter a password for Tor Control-port:"
+printf "Enter a password for Tor Control-port:"
 read torpassraw
 
 torpass=$(tor --hash-password "${torpassraw}")
@@ -12,6 +12,6 @@ tail -2 /etc/tor/torrc; echo
 
 sudo systemctl restart tor; echo
 
-echo "Verify that below tor-control-port is running on '127.0.0.1:9051' "
+printf "\nVerify that below tor-control-port is running on '127.0.0.1:9051' "
 
 ss -ntl; echo
