@@ -61,3 +61,12 @@ $ ./tor/get-current-tor-identity.sh
 Get your current IP Address:
 
 $ ./tor/get-current-ip.sh
+
+
+To set your browser to use tor as a proxy:
+
+Go to Settings >> Network Settings
+Choose "Manual Proxy Configuration"
+Set the field "SOCKS Host" to "localhost"
+Set the field "Port" to "9501"
+Visit ipchicken.com to verify that Name Address is a Tor exit node
