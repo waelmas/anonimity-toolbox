@@ -8,14 +8,15 @@ echo "Your IP without Tor:"
 wget -qO - https://api.ipify.org; echo
 echo "Your IP through Tor:"
 torsocks wget -qO - https://api.ipify.org; echo
+echo "\n\n"
 echo "To use Tor for a single shell command type 'torsocks' in front"
 echo "Example: 'torsocks wget -qO - https://api.ipify.org; echo"
 
-chmod +x $PWD/torify-temp.sh
-chmod +x $PWD/torify.sh
-chmod +x $PWD/enable-control-port.sh
-chmod +x $PWD/renew-identity.sh
-chmod +x $PWD/get-current-ip.sh
+chmod +x $PWD/tor/torify-temp.sh
+chmod +x $PWD/tor/torify.sh
+chmod +x $PWD/tor/enable-control-port.sh
+chmod +x $PWD/tor/renew-identity.sh
+chmod +x $PWD/tor/get-current-ip.sh
 
 
 echo "Run 'sudo ./tor/torify-temp.sh' to temporarily torify your shell"
