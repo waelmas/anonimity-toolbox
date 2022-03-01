@@ -6,7 +6,7 @@ read torpassraw
 
 torpass=$(tor --hash-password "${torpassraw}")
 echo "${torpassraw}"
-echo '"${torpassraw}"'
+echo ""${torpassraw}""
 
 printf "\nHashedControlPassword $torpass\nControlPort 9051\n" | sudo tee -a /etc/tor/torrc
 
