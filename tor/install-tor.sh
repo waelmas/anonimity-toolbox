@@ -26,8 +26,8 @@ chmod +x $PWD/tor/renew-identity.sh
 chmod +x $PWD/tor/get-current-ip.sh
 
 
-printf "Run 'sudo ./tor/torify-temp.sh' to temporarily torify your shell\n"
-printf "Run 'sudo ./tor/torify.sh' to permanently torify your shell and future shells\n"
-printf "Run 'sudo ./tor/enable-control-port.sh' to enable Tor control port and be able to use the following\n"
-printf "Run 'sudo ./tor/renew-identity.sh' to assume a new Tor identity\n"
-printf "Run 'sudo ./tor/get-current-ip.sh' to get your current IP Address\n\n"
+printf "Run './tor/torify-temp.sh' to temporarily torify your shell\n"
+printf "Run './tor/torify.sh' to permanently torify your shell and future shells\n"
+printf "Run './tor/enable-control-port.sh' to enable Tor control port and be able to use the following\n"
+printf "Run './tor/renew-identity.sh' to assume a new Tor identity\n"
+printf "Run './tor/get-current-ip.sh' to get your current IP Address\n\n"

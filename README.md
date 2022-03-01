@@ -45,9 +45,9 @@ $ sudo ./tor/torify.sh
 
 Setup control-port for Tor (to be able to request new identities):
 
-$ sudo ./tor/enable-control-port.sh
+$ ./tor/enable-control-port.sh
 
 
 Get your current IP Address:
 
-$ sudo ./tor/get-current-ip.sh
+$ ./tor/get-current-ip.sh
