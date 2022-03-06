@@ -110,7 +110,17 @@ Set the field "**Port**" to **`9501`**
 Visit https://ipchicken.com/ you should expect that the Name Address is a **Tor exit node**
 
 
-**Shell approach** 
+**Shell approach**
+
+To get simply the IP:
+
+    wget -qO - https://api.ipify.org; echo
+
+To get the Name Address (from ipchicken.com):
+
+    wget -qO - https://ipchicken.com |  sed -n '/Address:/,/ /p' | awk '{ print substr( $0, 1, length($0)-12 ) }'
+
+You should see the IP of a Tor exit node (You can search the IP )
 
 
 
