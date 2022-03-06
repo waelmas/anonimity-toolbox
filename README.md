@@ -29,7 +29,7 @@ https://protonvpn.com/
 
 
 ## Clone this repo:
-```git clone https://github.com/waelmas/anonimity-toolbox.git && cd anonimity-toolbox```
+    git clone https://github.com/waelmas/anonimity-toolbox.git && cd anonimity-toolbox
 
 
 
@@ -37,37 +37,37 @@ https://protonvpn.com/
 
 Install tor:
 
-```chmod +x ./tor/install-tor.sh && sudo ./tor/install-tor.sh```
+    chmod +x ./tor/install-tor.sh && sudo ./tor/install-tor.sh
 
 
 Torify shell for the current session:
 
-```sudo ./tor/torify-temp.sh```
+    sudo ./tor/torify-temp.sh
 
 
 Torify permanently (all future shells after reboot):
 
-```sudo ./tor/torify.sh```
+    sudo ./tor/torify.sh
 
 
 Setup control-port for Tor (to be able to request new identities):
 
-```./tor/enable-control-port.sh```
+    ./tor/enable-control-port.sh
 
 
 Request new Tor identity:
 
-```source torsocks off && ./tor/renew-identity.sh```
+    source torsocks off && ./tor/renew-identity.sh
 
 
 Get current Tor identity:
 
-```./tor/get-current-tor-identity.sh```
+    ./tor/get-current-tor-identity.sh
 
 
 Get your current IP Address:
 
-```./tor/get-current-ip.sh```
+    ./tor/get-current-ip.sh
 
 
 ## To set your browser to use tor as a proxy:
