@@ -14,7 +14,7 @@ Current status: Work In Progress
 
 ### Recommended: Install a no-log VPN and connect first
 
-Am audited no-log VPN that accepts direct crypto payments:
+An audited no-log VPN that accepts direct crypto payments:
 https://www.privateinternetaccess.com/download
 
 When registering you can use a temporary email to get the credentials upon payment
@@ -22,16 +22,17 @@ When registering you can use a temporary email to get the credentials upon payme
 You can use https://temp-mail.org/en
 
 
-Free VPN (Not for security/anonimity but rather for bypassing censorship):
+Free VPN (**NOT** for security/anonimity but rather for bypassing censorship):
 https://protonvpn.com/
 
 
-
+<br/>
 
 ## Clone this repo:
     git clone https://github.com/waelmas/anonimity-toolbox.git && cd anonimity-toolbox
 
 
+<br/>
 
 ## Setup Tor Proxy
 
@@ -69,11 +70,20 @@ Get your current IP Address:
 
     ./tor/get-current-ip.sh
 
+<br/>
+
 
 ## To set your browser to use tor as a proxy:
 
-Go to Settings >> Network Settings
-Choose "Manual Proxy Configuration"
-Set the field "SOCKS Host" to "localhost"
-Set the field "Port" to "9501"
-Visit ipchicken.com to verify that Name Address is a Tor exit node
+Go to **Settings** >> **Network Settings**
+
+Choose "**Manual Proxy Configuration**"
+
+Set the field "**SOCKS Host**" to **`localhost`**
+
+Set the field "**Port**" to **`9501`**
+
+Visit https://ipchicken.com/ to verify that Name Address is a **Tor exit node**
+
+
+
