@@ -8,13 +8,11 @@ Current status: Work In Progress
 
 
 
-$ git clone https://github.com/waelmas/anonimity-toolbox.git && cd anonimity-toolbox
 
 
 
 
-
-Recommended: Install a no-log VPN and connect first
+### Recommended: Install a no-log VPN and connect first
 
 Am audited no-log VPN that accepts direct crypto payments:
 https://www.privateinternetaccess.com/download
@@ -24,46 +22,55 @@ When registering you can use a temporary email to get the credentials upon payme
 You can use https://temp-mail.org/en
 
 
+Free VPN (Not for security/anonimity but rather for bypassing censorship):
+https://protonvpn.com/
 
 
-## Tor Proxy
+
+
+## Clone this repo:
+```git clone https://github.com/waelmas/anonimity-toolbox.git && cd anonimity-toolbox```
+
+
+
+## Setup Tor Proxy
 
 Install tor:
 
-$ chmod +x ./tor/install-tor.sh && sudo ./tor/install-tor.sh
+```chmod +x ./tor/install-tor.sh && sudo ./tor/install-tor.sh```
 
 
 Torify shell for the current session:
 
-$ sudo ./tor/torify-temp.sh
+```sudo ./tor/torify-temp.sh```
 
 
 Torify permanently (all future shells after reboot):
 
-$ sudo ./tor/torify.sh
+```sudo ./tor/torify.sh```
 
 
 Setup control-port for Tor (to be able to request new identities):
 
-$ ./tor/enable-control-port.sh
+```./tor/enable-control-port.sh```
 
 
 Request new Tor identity:
 
-$ source torsocks off && ./tor/renew-identity.sh
+```source torsocks off && ./tor/renew-identity.sh```
 
 
 Get current Tor identity:
 
-$ ./tor/get-current-tor-identity.sh
+```./tor/get-current-tor-identity.sh```
 
 
 Get your current IP Address:
 
-$ ./tor/get-current-ip.sh
+```./tor/get-current-ip.sh```
 
 
-To set your browser to use tor as a proxy:
+## To set your browser to use tor as a proxy:
 
 Go to Settings >> Network Settings
 Choose "Manual Proxy Configuration"
