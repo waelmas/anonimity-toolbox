@@ -53,6 +53,11 @@ Install tor:
     chmod +x ./tor/install-tor.sh && sudo ./tor/install-tor.sh
 
 
+Start Tor:
+
+    tor
+
+
 Torify shell for the current session:
 
     sudo ./tor/torify-temp.sh
