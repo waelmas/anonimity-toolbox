@@ -108,7 +108,7 @@ Set the field "**Port**" to **`9501`**
 **Browser approach:** (Assuming you are using Tor Browser or you have followed the above steps to connect your browser to TorSocks)
 
 Visit https://ipchicken.com/ you should expect that the Name Address is a **Tor exit node**
-Visit https://www.dnsleaktest.com/ and click on "Extended Test". You should see the IP of your VPN server
+
 
 **Shell approach** 
 
