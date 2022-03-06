@@ -55,7 +55,7 @@ Install tor:
 
 Start Tor:
 
-    tor
+    sudo systemctl start tor
 
 
 Torify shell for the current session:
