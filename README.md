@@ -112,11 +112,15 @@ Visit https://ipchicken.com/ you should expect that the Name Address is a **Tor 
 
 **Shell approach**
 
-To get simply the IP:
+To get simply the IP Address (**IPV4**):
 
     wget -qO - https://api.ipify.org; echo
+    
+If the above returns nothing, then probably you are behind an **IPV6** address (Used by some Tor nodes):
 
-To get the Name Address (from ipchicken.com):
+    wget -qO - https://api64.ipify.org; echo
+
+To get the **Name Address** (from ipchicken.com):
 
     wget -qO - https://ipchicken.com |  sed -n '/Address:/,/ /p' | awk '{ print substr( $0, 1, length($0)-12 ) }'
 
