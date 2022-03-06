@@ -6,23 +6,24 @@ Current status: Work In Progress
 
 
 
-
-
-
-
-
-
 ### Recommended: Install a no-log VPN and connect first
 
-An audited no-log VPN that accepts direct crypto payments:
+An audited no-log VPN that accepts direct crypto payments:<br/>
 https://www.privateinternetaccess.com/download
 
-When registering you can use a temporary email to get the credentials upon payment
-(Remember to change the password once you get the credentials)
-You can use https://temp-mail.org/en
+It also has a nice feature called "Multi-hop and Obfuscation" which hides the fact that you are using a VPN.
+
+<br/>
+
+When registering you can use a temporary email to get the credentials upon payment <br/>
+(Remember to change the password once you get the credentials)<br/>
+You can use:<br/>
+https://temp-mail.org/en
 
 
-Free VPN (**NOT** for security/anonimity but rather for bypassing censorship):
+<br/>
+
+Free VPN (**NOT** for security/anonimity but rather for bypassing censorship):<br/>
 https://protonvpn.com/
 
 
@@ -86,4 +87,10 @@ Set the field "**Port**" to **`9501`**
 Visit https://ipchicken.com/ to verify that Name Address is a **Tor exit node**
 
 
+
+<br/>
+
+## Notes:
+
+Keep in mind that the more layers you use, the more anonimity you will have but at the cost of reduced connection speed. So adapt and combine solutions according to your needs.
 
