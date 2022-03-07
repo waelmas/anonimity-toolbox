@@ -100,7 +100,7 @@ Choose "**Manual Proxy Configuration**"
 
 Set the field "**SOCKS Host**" to **`localhost`**
 
-Set the field "**Port**" to **`9500`**
+Set the field "**Port**" to **`9050`**
 
 
 
